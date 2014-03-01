@@ -13,6 +13,6 @@ Syntax is as follows:
 
 or
 
-./share_enum.py -t 10.10.10.222 -u someuser -p somepass
+./share_enum.py -t 10.10.10.222 -u someuser -p somepass -n threads (default:100)
 
-or any combination of  [-t|-u|-p|-w|-o]
+or any combination of  [-t|-u|-p|-w|-o|-n]

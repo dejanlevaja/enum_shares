@@ -9,10 +9,10 @@ Enum_Shares  enumerates shared folders across the network and under a custom use
 
 Syntax is as follows:
 
-./share_enum.py -t 10.10.10.0/24 -u mydomain\\myuser -p Password -w -o logfile.txt
+enum_shares.py -t 10.10.10.0/24 -u mydomain\\myuser -p Password -w -o logfile.txt
 
 or
 
-./share_enum.py -t 10.10.10.222 -u someuser -p somepass -n threads (default:100)
+enum_shares.py -t 10.10.10.222 -u someuser -p somepass -n threads (default:100)
 
 or any combination of  [-t|-u|-p|-w|-o|-n]
